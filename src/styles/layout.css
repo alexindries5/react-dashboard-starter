@@ -1,0 +1,29 @@
+.layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  min-height: 100vh;
+  background: transparent;
+}
+
+.layout__main {
+  background: radial-gradient(circle at 14% 18%, rgba(99, 102, 241, 0.06), transparent 25%),
+    radial-gradient(circle at 86% 14%, rgba(168, 85, 247, 0.06), transparent 24%),
+    #f8fafc;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-height: 100vh;
+}
+
+.layout__content {
+  padding: 0 1.75rem 2rem;
+}
+
+@media (max-width: 960px) {
+  .layout {
+    grid-template-columns: 80px 1fr;
+  }
+
+  .sidebar {
+    width: 80px;
+  }
+}
