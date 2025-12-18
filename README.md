@@ -1,6 +1,6 @@
 # Pulseboard
 
-A modern, production-ready React dashboard built with Vite and TypeScript. The layout includes a persistent sidebar, responsive content area, and curated pages for analytics, sales, reports, team, settings, and entity governance.
+A modern, production-ready React dashboard built with Vite and TypeScript. The layout includes a persistent sidebar, responsive content area, and curated pages for analytics, sales, reports, team, and settings.
 
 ## Scripts
 - `npm install` – install dependencies
@@ -12,5 +12,3 @@ A modern, production-ready React dashboard built with Vite and TypeScript. The l
 ## Notes
 - Uses React Router for client-side navigation across dashboard sections.
 - Styled with modern gradients, reusable cards, and accessible semantic markup.
-- Includes JWT-style sign-in with optional session persistence (`/signin`). Use the seeded credentials shown on the form to log in locally.
-- The Entities page demonstrates CRUD-friendly data grids powered by `@tanstack/react-table` with sorting, filtering, and inline editing.
