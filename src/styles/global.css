@@ -70,6 +70,15 @@ button {
   font-weight: 700;
 }
 
+.danger {
+  border-radius: 12px;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid rgba(234, 63, 84, 0.35);
+  color: #ffd7df;
+  background: rgba(234, 63, 84, 0.08);
+  font-weight: 700;
+}
+
 .primary {
   background: linear-gradient(135deg, #4f46e5, #8b5cf6);
   color: #fff;
